@@ -229,7 +229,7 @@ const AppStyled = styled.div`
     h1{
       font-size: clamp(1.5rem, 2vw, 2.5rem);
       font-weight: 800;
-      color: ${(props) => props.theme.colorPrimaryGreen};
+      color: ${(props) => props.theme.colorPrimary};
     }
     .input-container{
       margin: 2rem 0;
@@ -266,7 +266,7 @@ const AppStyled = styled.div`
         right: 0;
         cursor: pointer;
         border: none;
-        background: ${(props) => props.theme.colorPrimaryGreen};
+        background: ${(props) => props.theme.colorPrimary};
         height: 100%;
         padding: 0 1rem;
         border-top-right-radius: 7px;
